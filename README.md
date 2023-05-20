@@ -2,7 +2,6 @@
  Taller diplomado, inventario de producto, microservicio
  
 #Endpoints a utilizar
-
 ○ GET /productos: Retorna la lista de todos los productos en el inventario
 ○ GET /productos/{id}: Retorna los detalles de un producto específico.  
 ○ POST /productos: Crea un nuevo producto en el inventario y retorna el producto creado en un JSON
@@ -16,7 +15,7 @@
 
 ○ DELETE /productos/{id}: Elimina un producto del inventario con tan solo pasarle el id dl producto que se desea eliminar.
 
-#Base de Dato | Maria DB
+#Base de Datos | Maria DB
 ○ Config en .yml:
     datasource:
       url: jdbc:mariadb://127.0.0.1:3308/productos
